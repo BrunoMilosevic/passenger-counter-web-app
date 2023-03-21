@@ -1,0 +1,44 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+#main-div{
+    max-width: 100%;
+    min-width: 75%;
+}
+body{
+    background: linear-gradient(to left top, #090979, #7b7b7e);
+    background-attachment: fixed;
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#count-button, #reset-button, #save-button{
+   background: linear-gradient(to left top, #090979, #7b7b7e);
+   color: white;
+   margin: 5px;
+   padding: 5px;
+   width: 20%;
+   font-size: 10px;
+}
+@media screen and (max-width: 768px){
+    #count-button, #reset-button, #save-button{
+        font-size: 8px;
+    }
+}
+@media screen and (max-width: 768px){
+    #count-button, #reset-button, #save-button{
+        font-size: 5px;
+    }
+}
+
+
+
+
+
